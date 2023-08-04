@@ -9,7 +9,7 @@ valor = int(input("Qual valor voce deseja sacar? "))
 if(valor < 10 or valor >600):
     print("Valor inválido.\n");
 else:
-        
+    print("caixa eletronico");
     cont100 = valor //100
     valor -= cont100 *100
 
@@ -25,4 +25,4 @@ else:
     cont1 = valor //1
     valor -= cont1 *1
 
-    print(f"Total de notas \nNotas de R$ 100: {cont100} \nNotas de R$ 50: {cont50} \nNotas de R$ 10: {cont10} \nNotas de R$ 5: {cont5} \nNotas de R$ 1: {cont1} \n")
+    print(f"Quantidade total de notas: \nNotas de R$ 100: {cont100} \nNotas de R$ 50: {cont50} \nNotas de R$ 10: {cont10} \nNotas de R$ 5: {cont5} \nNotas de R$ 1: {cont1} \n")
